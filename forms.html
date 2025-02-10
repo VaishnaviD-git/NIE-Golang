@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <label for="usn">USN:</label>
+        <input type="text" name="usn" id="usn" value="1R5t6y" ><br><br>
+        <label for = "first_name"> First Name:</label>
+       <input type ="text" name="first_name" id="first_name" placeholder="Enter your Name:"  maxlength="25"> <br> <br>   <!--no space in html-->
+
+        <label for = "middle_name"> Second Name:</label>
+       <input type ="text" name="middle_name" id="middle_name"placeholder="Enter your Name:"> <br> <br>
+
+       <label for = "last_name"> Third Name:</label>
+       <input type ="text" name="last_name" id="last_name"placeholder="Enter your Name:"> <br> <br>
+      
+       <label for = "email_id"> Email:</label>
+       <input type ="email" name="email_id" id="email_id" placeholder="Enter your email_id:"> <br> <br>
+
+       <label for = "age"> Age:</label>   <!--Ctrl+D-->
+       <input type ="number" name="age" id="age" placeholder="Enter your Age:" min="18" max="100"> <br> <br>
+
+       <label for = "phone"> Phone Number:</label>   <!--Ctrl+D-->
+       <input type ="tel" name="phone" id="phone"placeholder="Enter your Phone NUmber:"> <br> <br>
+
+       <label for = "password"> Password:</label>   <!--Ctrl+D-->
+       <input type ="password" name="password" id="password"placeholder="Enter your Password:"> <br> <br>
+
+       <label for = "dob"> DOB:</label>   <!--Ctrl+D-->
+       <input type ="date" name="dob" id="dob"placeholder="Enter your DOB:" min="1995-01-01" max="2025-01-01"> <br> <br>
+
+       <label for = "address"> Address:</label>
+       <textarea name="address" id ="address" rows="10" cols="20"placeholder="Enter your Address:"></textarea> </textarea> <br> <br>
+
+       <label for="gender">Gender:</label>
+       <input type="radio" name ="gender" id="male">
+       <label for="gender"> Male:</label>
+       <input type="radio" name ="gender" id="male">
+       <label for="gender"> Female:</label>
+       <input type="radio" name ="gender" id="female">
+       <label for="gender"> Others</label><br><br>
+
+       <label for="subjects"> Subjects</label>
+       <input type="checkbox" name="science" id="science">
+       <label for="subjects"> Science</label>
+       <input type="checkbox" name="social" id="social">
+       <label for="subjects">Social</label>
+       <input type="checkbox" name="maths" id="maths">
+       <label for="subjects">Maths</label><br><br>
+      
+       <label for="state">State</label>
+       <select name="state" id="state">
+        <option value="KA">Karnataka</option>
+        <option value="TN">Tamilnadu</option>
+        <option value="KL">Kerala</option>
+        <option value="AP">Andhra Pradesh</option>
+       </select><br><br>
+
+       <label for="photo">Upload Photo:</label>
+       <input type="file" name="photo" id="photo" multiple accept=".pdf,.docx*"><br><br>
+
+       <input type ="submit" value="Submit">
+    
+    </form>
+</body>
+</html>
